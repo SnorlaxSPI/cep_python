@@ -29,12 +29,14 @@ def main():
 	else:
 		print('{}: CEP inválido.'.format(cep_input))
 
+
 	print('---------------------------------')
 	option = int(input('Deseja realizar uma nova consulta ?\n1. Sim\n2. Sair\n'))
 	if option == 1:
 		main()
 	else:
 		print('Saindo...')
+
 
 if __name__ == '__main__':
 	main()
