@@ -14,7 +14,7 @@ def main():
 
 	request = requests.get('https://viacep.com.br/ws/{}/json/'.format(cep_input))
 
-	address_data = request.json()
+	address_data = request.json() 
 
 	if 'erro' not in address_data:
 		print('==> CEP ENCONTRADO <==')
